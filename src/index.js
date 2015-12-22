@@ -7,7 +7,7 @@ export default function ({ types: t }) {
                         t.identifier('regeneratorRuntime'),
                         t.callExpression(
                             t.identifier('require'),
-                            [t.stringLiteral('babel-regenerator-runtime')]
+                            [t.stringLiteral('babel-catch-regenerator-runtime')]
                         )
                     )
                 ]);
